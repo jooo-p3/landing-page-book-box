@@ -1,0 +1,38 @@
+header {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  background-color: var(--purple-01);
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+
+    .links {
+      display: flex;
+      gap: 1rem;
+
+      a {
+        padding: 0.5rem 2rem;
+        font-weight: 600;
+        border: 2px solid var(--white);
+        border-radius: 99px;
+
+        &:first-child {
+          color: var(--white);
+        }
+
+        &:last-child {
+          color: var(--purple-01);
+          background-color: var(--white);
+        }
+      }
+    }
+  }
+}
